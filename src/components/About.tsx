@@ -15,20 +15,19 @@ const About = () => {
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
                 I'm currently pursuing my Bachelor's degree in Electronics and Communication Engineering 
-                at Siddaganga Institute of Technology (2022–2026) with a CGPA of 8.23. My journey in 
+                at Siddaganga Institute of Technology (2022–2026) with a CGPA of 8.17. My journey in 
                 engineering has been driven by a deep fascination with technology and its potential to 
                 solve real-world problems.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                My interests span across machine learning, IoT systems, and web development. I believe 
+                My interests span across Generative AI, IoT systems, and web development. I believe 
                 in the power of interdisciplinary learning and enjoy exploring how different technologies 
                 can work together to create innovative solutions.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                Beyond academics, I'm an active contributor to college events and serve as an IEEE board 
-                member, where I help organize technical workshops and coding competitions. I've learned 
+                Beyond academics, I'm an active contributor to college events and serve as an IEEE Secretary, where I help organize technical workshops and coding competitions. I've learned 
                 to balance rigorous academic pursuits with hands-on project building and continuous 
                 technical learning.
               </p>
@@ -38,7 +37,7 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-gradient-to-br from-blue-900 to-slate-700 p-6 rounded-xl hover:scale-105 transition-transform duration-300">
                 <GraduationCap className="h-8 w-8 text-blue-400 mb-4" />
-                <h3 className="text-2xl font-bold text-white mb-2">8.23</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">8.17</h3>
                 <p className="text-blue-200">CGPA</p>
               </div>
               
@@ -57,7 +56,7 @@ const About = () => {
               <div className="bg-gradient-to-br from-cyan-900 to-slate-700 p-6 rounded-xl hover:scale-105 transition-transform duration-300">
                 <Users className="h-8 w-8 text-cyan-400 mb-4" />
                 <h3 className="text-2xl font-bold text-white mb-2">IEEE</h3>
-                <p className="text-cyan-200">Board Member</p>
+                <p className="text-cyan-200">Secretary</p>
               </div>
             </div>
           </div>

@@ -1,36 +1,36 @@
 
-import { Code, Database, Settings, Brain, MessageSquare, Globe } from "lucide-react";
+import { Code, Database, Settings, Brain, MessageSquare, Globe, Bot } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
       title: "Programming",
       icon: Code,
-      skills: ["C++", "Python", "PHP"],
+      skills: ["C","C++", "Python",],
       color: "from-blue-600 to-indigo-600"
     },
     {
       title: "Web Development",
       icon: Globe,
-      skills: ["HTML", "CSS", "JavaScript", "Streamlit"],
+      skills: ["HTML", "CSS", "Streamlit"],
       color: "from-green-600 to-emerald-600"
     },
     {
-      title: "Database",
-      icon: Database,
-      skills: ["MySQL"],
+      title: "AI/ML",
+      icon: Bot,
+      skills: ["Machine Learning", "Deep Learning", "Natural Language Processing", "Retrieval-Augmented Generation"],
       color: "from-purple-600 to-violet-600"
     },
     {
-      title: "Tools",
+      title: "Tools and Technologies",
       icon: Settings,
-      skills: ["VS Code", "PyCharm", "Jupyter Notebook", "Google Colab"],
+      skills: ["Git", "GitHub", "VS Code", "Docker", "PyCharm", "Jupyter Notebook", "Google Colab"],
       color: "from-orange-600 to-red-600"
     },
     {
       title: "Concepts",
       icon: Brain,
-      skills: ["Machine Learning", "Deep Learning", "Computer Networks", "OOPs", "Data Structures"],
+      skills: ["Database Management", "OOPS", "Data structures and Algorithms"],
       color: "from-cyan-600 to-blue-600"
     },
     {

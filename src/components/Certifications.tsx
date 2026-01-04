@@ -24,6 +24,12 @@ const Certifications = () => {
       link: "https://codebasics.io/certificate/CB-48-447186"
     },
     { 
+      title: "Machine Learning and Deep Learning", 
+      issuer: "Udemy",
+      color: "from-teal-500 to-cyan-500",
+      link: "https://www.udemy.com/certificate/UC-be5d9069-5d4a-49d6-b8fc-b69587ef7662/"
+    },
+    { 
       title: "CCNA: Introduction to Networks", 
       issuer: "Cisco",
       color: "from-purple-500 to-violet-500",
