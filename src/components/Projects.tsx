@@ -26,8 +26,8 @@ const Projects = () => {
       icon: BarChart3,
       technologies: ["Python", "Machine Learning", "LSTM", "Neural Networks"],
       color: "from-green-600 to-emerald-600",
-      demoLink: "https://your-crop-project.vercel.app",
-      codeLink: "https://github.com/your-username/crop-suggestion-system"
+      demoLink: "https://crop-suggestion-with-rain-prediction-ejbhrzcmjpmkoikk4itpxh.streamlit.app/",
+      codeLink: "https://github.com/Dharshan2k04/Crop-Suggestion-with-Rain-prediction/blob/main/streamlit_app.py"
     },
     {
       title: "Line-Following Robot for Patient Monitoring",
